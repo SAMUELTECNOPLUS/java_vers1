@@ -14,3 +14,4 @@ public class Flash extends hero {
         System.out.println("Flash acelera hasta romper la barrera del sonido, dejando solo un rastro de rayos dorados.");
     }
 }
+//onepaunit
