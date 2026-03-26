@@ -1,4 +1,8 @@
-public class Flash extends hero {
+public class Flash extends hero implements rojo {
+
+    public Flash() {
+    }
+
     @Override
     protected void aGolpe() {
         System.out.println("Flash lanza una ráfaga de mil golpes por segundo antes de que el enemigo pueda parpadear.");
@@ -12,5 +16,10 @@ public class Flash extends hero {
     @Override
     protected void cSpeed() {
         System.out.println("Flash acelera hasta romper la barrera del sonido, dejando solo un rastro de rayos dorados.");
+    }
+
+    @Override
+    public void angry() {
+
     }
 }

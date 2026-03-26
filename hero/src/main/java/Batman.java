@@ -1,4 +1,8 @@
-public class batman extends hero{
+public class Batman extends hero{
+
+    public Batman() {
+    }
+
     @Override
     protected void aGolpe() {
         System.out.println("Batman surge de las sombras y lanza un golpe crítico al mentón del criminal.");
